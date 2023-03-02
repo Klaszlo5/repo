@@ -1,0 +1,19 @@
+package tombbel;
+
+//gitbash nem pushol egyideje
+public class SzamolosFeladatok
+{
+    public static void main(String[] args)
+    {
+        for (int i = 2; i <= 3; k++)
+        {
+            for (int szam = 2; szam <= 3; szam++)
+            {
+                for (int g = 2; g <= 4; g++)
+                {
+                    System.out.println("szamok:" + i + szam + g);
+                }
+            }
+        }
+    }
+}
